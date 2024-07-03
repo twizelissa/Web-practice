@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: honeydew;
+    margin: 80px;
+    margin-left: 120px;
+    background-repeat: no-repeat;
+    padding:20px ;
+
+}
+.logo{
+    font-weight: bold;
+    
+
+    
+}
+.menu{
+    display: flex;
+    justify-content: right;
+    
+
+}
+
+.listing{
+    display: flex;
+    font-weight: bold;
+    font-size: 15px ;
+    gap: 120px;
+    list-style-type:none;
+}
+
+button{
+    background-color:rgb(62, 45, 92);
+    color: white;
+    border-radius: 20px ;
+    width: 150px;
+    height: 30px;
+}
+.intro-duction{
+    font-size: 30px;
+    margin-top:80px ;
+}
+.intro-duction1{
+    margin-top:30px ;
+}
+.image-container {
+
+    display: flex;
+    justify-content: right;
+    align-items: center; /* Optional, if you want to center vertically as well */
+    height: 200px; /* Optional, example height */
+  }
+
+  .button{
+    margin-top: 50px;
+    width: 200px; 
+    padding: 25px;
+    border-radius:15px ;
+    text-align: left;
+    margin-bottom: 70px;
+
+  }
+
+  .content-title{
+    text-align: center;
+    margin-top:70px ;
+    margin-bottom: 100px;
+    
+  }
+  /* /* .content-image { */
+    
+
+    
+    /* align-items: flex-start; /* Align items vertically */
+    /* gap: 20px; Add space between each content div
+     */
+/* } */
+
+/* .content div {
+    
+    flex: 1; /* Adjust the width of the content divs */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);; /* Light box-shadow */
+    /* padding:20px; /* Add padding inside each content div */
+    /* border-radius: 5px; /* Optional: Add rounded corners */
+    /* margin: 20px ; */ 
+     
+/* }  */ 
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Ensure the body has the desired background color */
+
+
+
+.content1 .content {
+    margin-right:10px ;
+    flex: 1; /* Adjust the width of the content divs */
+    padding: 60px; /* Add padding inside each content div */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    background-color: #fff; /* Ensure background is white */
+     /* Ensure padding and border are included in the element's total width and height */
+    position: relative; /* Ensure the pseudo-element is positioned correctly */
+}
+
+.information1{
+    
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.information2{
+
+flex-direction: column;
+
+}
+.text-and-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-and-image p{
+    flex:1; /*allows paragraph to take available space*/
+    margin-right: 20px;
+}
+
+.text-and-image img{
+    max-width: 800px;
+    
+}
+    
+.information3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.image-and-text{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns:auto 1fr ;
+    align-items: center;
+    
+     
+}
+.image-and-text h1{
+    display: flex;
+    justify-content: right;
+    margin-left:1200px ;
+    padding: 30px;
+
+    
+}
+.image-and-text p{
+  flex: 1;  
+  margin-top: 400px;
+  display: flex;
+  
+  
+
+  
+    
+}
+.image-and-text img{
+max-width:800px ;
+height: 50vh;
+
+
+}
+
+.contact {
+text-align: center;
+margin-top:100px ;
+
+}
+
+.banner{
+    
+    background-color: rgb(219, 213, 224);
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    
+}
+
+.banner h1{
+    
+
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+ .text {
+     
+   flex: 0.1;  
+   margin-top: 200px;
+   display :flex;
+   margin-left: 30px;
+     
+ }
+ 
+ span{
+     text-align: left;
+     margin-left: 30px;
+     flex-direction: column;
+ 
+ 
+ }
+ i{
+    margin-left: 30px;
+     display: flex;
+     width: 50px;
+     height: 20px;
+     flex: 1;  
+     
+      
+ }
+ 
+ 
+    
+
+.form-container{
+    text-align: left;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    display:flex;
+
+    justify-content: right;
+    align-items: center;
+    width: 300px;
+    height: 800px;
+    box-shadow: darkgrey;
+    margin-left: 1200px;
+    margin-bottom: 10000px;
+    
+}
+
+.footer{
+    background-color:rgb(29, 20, 44);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 500px;
+
+}
+.footer-page1{
+    margin-left: 30px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+     
+}
+
+.footer-page1 h1{
+   padding:20px;
+    
+}
+
+.footer-list{
+    list-style-type: none;
+    padding:20px;
+
+}
+
+.socials{
+    margin-right: 30px;
+    padding: 20px;
+
+    
+}
+
+
+.socials img{
+
+    width: 25px;
+    height:25px;
+    
+}
+
+
+
+
+
+
+ 
